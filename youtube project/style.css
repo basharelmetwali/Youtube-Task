@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cairo:wght@700&family=Lexend+Deca&family=Open+Sans:wght@300&family=Outfit:wght@400;500;600&family=Roboto+Slab:wght@600&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+html{
+    font-size: 10px;
+}
+body{
+    height: 952px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+     font-family: 'Roboto Slab', serif;
+  height: 56px;
+  border-color:rgba(0, 0, 0, 0.1)
+}
+header{
+    display: flex;
+    padding: 0px 16px;
+    justify-content: space-between;
+    width:1869px;
+  padding-top: 10px;
+}
+.left-head {
+    display: flex;
+    width: 204px;
+    height: 48px;
+    margin-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.right-head{
+    display: flex;
+    align-items: center;
+    width:169px;
+    height: 56px;
+    margin-right: 20px;
+    justify-content: flex-end;
+    margin-right: -30px;
+}
+.mid-head{
+    display: flex;
+    align-items: center;
+    width: 728px;
+   
+    height: 48px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    padding: 8px;
+    cursor: pointer;
+}
+input{
+    display: flex;
+    justify-content: flex-end;
+    direction: rtl;
+    align-items: center;
+    height: 40px;
+    width: 540px;
+}
+.search{
+    display: flex;
+    margin-top: 15px;
+}
+header::after {
+    content: "";
+    width: 1650px;
+    position: absolute;
+    top: 63px;
+    height: 1px;
+    left: 0px;
+    background-color: #e5e5e5;
+}
+.buttons{
+    width:1560px;
+    display: flex;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 73px;
+}
+.buttons button{
+    width: fit-content;
+    padding: 0px 10px;
+    height: 32px;
+    border-radius: 16px;
+    margin: 0px 5px;
+    font-size: 1.4rem;
+    position: relative;
+}
+input:focus{
+    outline-color: #065fd4;
+}
+.buttons button:hover{
+    background-color: black;
+    color: white;
+}
+.search button:hover{
+    background-color: #6e6868;
+}
+.buttons::after{
+    content: "";
+    width: 1650px;
+    position: absolute;
+    top:45px;
+    height: 1px;
+    left: 0px;
+    background-color: #e5e5e5;
+}
+nav {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 848px;
+    right: 0px;
+    margin-right: 16px;
+    margin-right: 20px;
+    direction: rtl;
+}
+nav div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 20px;
+    direction: ltr;
+}
+nav div a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top:20px;
+    margin-right: 14px;
+    font-size: 13px;
+    font-weight: 100;
+    
+   
+}
+nav div:hover{
+    background-color: #e5e5e5;
+}
+.horone{
+    width: 350px;
+    height: 1px;
+    background-color: #e5e5e5;
+    position: absolute;
+    top: 225px;
+    right: -145px;
+}
+
+.hortwo{
+    width: px;
+    height: 350px;
+    background-color: #e5e5e5;
+    position: absolute;
+    top: 475px;
+    right: -145px;
+
+}
+.font{
+    font-size: 15px;
+    margin: 10px 16px 5px 0px;
+}
+.horthree{
+
+    width:350px;
+    height: 1px;
+    background-color: #e5e5e5;
+    position: absolute;
+    top: 745px;
+    right: -145px;
+}
+
+nav::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+ 
+  nav::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+  }
+  
+ 
+  nav::-webkit-scrollbar-thumb {
+    background: #e5e5e5;
+    border-radius: 10px;
+  }
+
+.videos {
+    position: absolute;
+    padding-top: 30px;
+    left: 0px;
+    top: 121px;
+    background-color: #f9f9f9;
+    width: 1652px;
+    height: 831px;
+    display: grid;
+    grid-template-columns:330px 330px 330px 330px;
+    grid-template-rows: 126px 126px 126px;
+    justify-content: space-around;
+    align-content:space-between;
+    
+    
+  }
+  .videos div >img{
+      width: 100%;
+      height: 210px;
+    
+  }
+  .videos div div{
+      font-size: 1.6rem;
+      display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  
+      
+  }
+  .videos> div{
+  margin-bottom: 800px;
+
+  cursor: pointer;
+  }
+  
+  .videos div div img{
+      margin-left: 10px;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+  }
+  .videos div div .title{
+      margin-top: 2px;
+  }
+  .info {
+    font-size: 1.4rem;
+    color: #717171;
+    position: relative;
+    font-weight: 100;
+    top: -24px;
+    left: 163px;
+    margin-bottom: 90px;
+}
